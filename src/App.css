@@ -31,6 +31,12 @@
 .box2 {
   overflow-wrap: break-word;
 }
+@media (min-width:1024px) {
+  .hero {
+    transform: scale(4);
+  }
+}
+
 
 @keyframes App-logo-spin {
   from {

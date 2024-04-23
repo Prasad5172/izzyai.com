@@ -32,7 +32,7 @@ function AboutSection2() {
         voice, language, narration, phonology, and learning disabilities.
         </p>
       </div>
-      <img className="w-full rounded" src="/about-2.png" />
+      <img className="w-full rounded" src="/about-4.jpg" />
 
     
       {/* <img className="w-full" src="/about-3.png" /> */}
