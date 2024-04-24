@@ -43,7 +43,7 @@ function HeroSection() {
           </span>
           with AI Powered therapists
         </h2>
-        <p className="my-4 text-[14px] text-left lg:text-left tracking-tighter lg:tracking-normal lg:text-[16.5px] text-[#111920] dark:text-white">
+        <p className="my-4 text-[14px] text-left lg:text-left text-center tracking-tighter lg:tracking-normal lg:text-[16.5px] text-[#111920] dark:text-white">
           Discover the future of speech therapy with IzzyAI. Our cutting-edge AI
           therapists are designed to understand, guide, and enhance your speech
           capabilities, offering a personalized path to clearer communication.

@@ -2,7 +2,7 @@ const Card = ({ heading, text }) => {
   return (
     <div className="bg-slate-300 dark:bg-[#222A32] w-full rounded-xl p-4 text-center dark:text-white">
       <h3 className="font-bold text-[17px] md:text-[24px] mb-2">{heading}</h3>
-      <p className="text-[11.5px] text-left tracking-lighter  md:text-[13px]">
+      <p className="text-[15px] text-center tracking-lighter  md:text-[15px]">
         {text}
       </p>
     </div>

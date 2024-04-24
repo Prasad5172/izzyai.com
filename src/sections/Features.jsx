@@ -11,7 +11,7 @@ const Tile = (props) => {
         <img src={props.icon} alt="icon" />
         <h3 className="ml-2 text-[22px] font-bold w-full">{props.heading}</h3>
       </div>
-      <p className="box-2 text-left tracking-lighter  text-[13.5px] tight-letter-spacing lg:text-justify md:text-[13px] lg:text-[13px] mt-6 lg:tracking-lighter ">
+      <p className="box-2 text-left tracking-lighter  text-[15px] tight-letter-spacing lg:text-start md:text-[15px] lg:text-[15px] mt-6 lg:tracking-lighter ">
         {props.text}
       </p>
     </div>

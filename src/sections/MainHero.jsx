@@ -43,7 +43,7 @@ function MainHeroSection() {
         <div
           className={`absolute top-0 left-0 w-full h-full bg-hero-image bg-cover ${width>1024 ? "bg-top":""}bg-center d-flex`}
           style={{
-            backgroundImage:`linear-gradient(0deg, rgba(17, 25, 32, 0.64) 0%, rgba(17, 25, 32, 0.64) 100%), url('/hero_background${width > 1400 ? "5":"4"}.jpg')`,
+            backgroundImage:`linear-gradient(0deg, rgba(17, 25, 32, 0.64) 0%, rgba(17, 25, 32, 0.64) 100%), url('/hero_background${width > 1400 ? "4":"3"}.jpg')`,
             backgroundPosition:`${width>1024 ? "bottom center":""}`
 
           }}

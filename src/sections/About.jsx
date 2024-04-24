@@ -24,7 +24,7 @@ function AboutSection() {
         <h2 className="text-[30px] dark:text-white capitalize leading-[48px] font-bold">
          IzzyAI brings products to help humanity
         </h2>
-        <p className="my-4 text-left text-[14.3px] tight-letter-spacing  tracking-tighter lg:text-justify md:text-[14px] lg:text-[15.5px] mt-6 lg:tracking-tighter text-[#111920] dark:text-white">
+        <p className="my-4 text-center text-[14.3px] tight-letter-spacing  tracking-tighter lg:text-justify md:text-[14px] lg:text-[15.5px] mt-6 lg:tracking-tighter text-[#111920] dark:text-white">
           Empowering Change Through Innovation: At the heart of IzzyAI, we're driven by a mission to create
           technology that makes a real difference. Our products are designed with humanity in mind,
           aiming to bridge gaps, overcome barriers, and offer solutions that enhance lives.

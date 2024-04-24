@@ -26,7 +26,7 @@ function App() {
       <HeroSection />
       <AboutSection />
       <AboutSection2 />
-      <RationaleSection />
+      {/* <RationaleSection /> */}
       <FeaturesCardSection />
       <FeaturesSection />
       {/* <ProductsSection /> */}
