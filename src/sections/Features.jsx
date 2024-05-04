@@ -7,11 +7,13 @@ import Svg3 from "../Assets/features-3.svg";
 const Tile = (props) => {
   return (
     <div className="">
-      <div className="flex items-center mb-2 ">
-        <img src={props.icon} alt="icon" />
-        <h3 className="ml-2 text-[22px] font-bold w-full">{props.heading}</h3>
+      <div className="flex items-center mb-2 md:justify-start lg:justify-start justify-around">
+        <div className="flex items-center 	">
+          <img src={props.icon} alt="icon" />
+          <h3 className="ml-2 text-[22px] font-bold w-full">{props.heading}</h3>
+        </div>
       </div>
-      <p className="box-2 text-left tracking-lighter  text-[15px] tight-letter-spacing lg:text-start md:text-[15px] lg:text-[15px] mt-6 lg:tracking-lighter ">
+      <p className="box-2 text-center tracking-lighter  text-[15px] tight-letter-spacing lg:text-start md:text-start sm:text-center md:text-[15px] lg:text-[15px]  lg:tracking-lighter ">
         {props.text}
       </p>
     </div>
@@ -53,14 +55,14 @@ function FeaturesSection() {
             text="Dive into a variety of interactive exercises led by a friendly avatar, designed to enhance your speaking abilities. These exercises are not only personalized but also engaging, making your practice sessions enjoyable. Whether  it’s working on fluency, articulation, voice or language, our avatar guides you every step of the way, offering real-time feedback and encouragement."
             icon={Svg2}
           />
-          <div></div>
+          <div className="invisible"></div>
           <Tile
             heading="Reports"
             text="With IzzyAI, tracking your progress is seamless. After each session, receive comprehensive reports detailing your improvements, areas that need more attention, and insights into your overall speech development. These reports cover everything from session frequency to specific speech errors, offering a clear view of your journey towards clearer communication."
             icon={Svg1}
           />
           <Tile
-            heading="Support and Community"
+            heading="Support"
             text="IzzyAI goes beyond exercises and assessments by providing continuous support and access to a thriving community. Engage with peers facing similar challenges in a supportive environment, share experiences, and celebrate milestones together. Our dedicated team offers guidance, answers questions, and ensures you have all the resources needed for a successful journey. Feel empowered and motivated by a community that understands and supports your path to clearer speech."
             icon={Svg1}
           />

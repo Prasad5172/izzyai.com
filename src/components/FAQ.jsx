@@ -39,7 +39,7 @@ const FaqItem = ({ faq }) => {
   return (
     <div className="border-2 border-[#212A31] dark:border-[#212A31] rounded-md">
       <button
-        className="flex justify-between items-center w-full py-5 px-6 text-left"
+        className="flex justify-between items-center w-full py-5 px-6 text-center"
         onClick={() => setIsOpen(!isOpen)}
       >
         <span className="text-[#111920] dark:text-white text-[20px] md:text-[24px] font-medium">

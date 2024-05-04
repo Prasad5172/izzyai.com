@@ -9,14 +9,14 @@ function DownloadAppSection() {
         id="download"
         className="flex w-full lg:w-fit md:w-fit lg:p-10 mt-32 flex-col md:flex-row items-center justify-between md:mx-32 bg-slate-300 dark:bg-[#222A32] p-4 rounded-2xl"
       >
-        <div className="order-2 md:order-1 text-center md:text-left p-2">
+        <div className="order-2 md:order-1 text-center md:text-center p-2">
           <h2 className="text-[28px] md:text-[36px] font-bold text-[#111920] dark:text-white leading-[36px] md:leading-[46px] my-4">
             <span className="bg-clip-text text-transparent bg-gradient-to-r from-[#0CC8E8] to-[#2DEEAA]">
               Download{" "}
             </span>
             IzzyAI Application Now!
           </h2>
-          <p className="dark:text-white text-left tracking-lighter  mb-5 text-[13px] lg:text-[15px] md:mr-8 lg:mr-8">
+          <p className="dark:text-white text-center tracking-lighter  mb-5 text-[13px] lg:text-[15px] md:mr-8 lg:mr-8">
             Ready to transform your communication skills? Download the IzzyAI
             app now and embark on a personalized path to improved speech. With
             access to AI-powered assessments, interactive exercises, and

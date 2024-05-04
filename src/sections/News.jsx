@@ -11,7 +11,7 @@ function NewsSection() {
         <Button>All Posts</Button>
       </div>
 
-      <div className="grid grid-col-1 md:grid-cols-3 space-x-[24px] text-center md:text-left">
+      <div className="grid grid-col-1 md:grid-cols-3 space-x-[24px] text-center md:text-center">
         <div>
           <img className="object-cover h-[300px]" src="news-1.png" />
           <h2 className="text-[32px] leading-[40px] font-bold my-2">

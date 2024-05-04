@@ -8,7 +8,7 @@ function Footer() {
       </div>
 
       <div className="container px-10  md:px-32 py-16 mx-auto">
-        <div className="flex flex-wrap md:text-left text-center -mb-10 -mx-4">
+        <div className="flex flex-wrap md:text-center text-center -mb-10 -mx-4">
           <div className="lg:w-1/3 md:w-1/2 w-full px-4">
             <a href="#help" className="title-font font-medium text-white tracking-widest text-sm mb-3 flex justify-center items-center">
               How IzzyAI can help?
@@ -44,7 +44,7 @@ function Footer() {
 
       <div className=" w-full h-px max-w-5xl mx-auto my-1 bg-[#262626]"></div>
 
-      <p className="text-gray-400 text-sm text-center sm:text-left md:text-center px-10 md:px-32 py-5">
+      <p className="text-gray-400 text-sm text-center sm:text-center md:text-center px-10 md:px-32 py-5">
         Copyright ©2024 Victoriam AI  - All rights reserved.
       </p>
     </footer >

@@ -7,7 +7,7 @@ function MissionVisionSection() {
         <h2 className="text-[32px] md:text-[40px] font-bold bg-clip-text text-transparent bg-gradient-to-r from-[#0CC8E8] to-[#2DEEAA] text-center leading-[46px]">
           Vision
         </h2>
-        <p className=" text-left text-[13.7px] lg:text-[15px] tracking-lighter md:px-32 dark:text-white">
+        <p className=" text-center text-[13.7px] lg:text-[15px] tracking-lighter md:px-32 dark:text-white">
           Our vision is centered on promoting inclusivity and equitable access
           to comprehensive resources within the speech-language pathology field.
           We are committed to facilitating accurate assessments and offering a
@@ -22,7 +22,7 @@ function MissionVisionSection() {
         <h2 className="text-[32px] md:text-[40px] font-bold bg-clip-text text-transparent bg-gradient-to-r from-[#0CC8E8] to-[#2DEEAA] text-center leading-[46px]">
           Mission
         </h2>
-        <p className=" text-left  text-[13.7px] lg:text-[15px] tracking-lighter md:px-24 dark:text-white">
+        <p className=" text-center  text-[13.7px] lg:text-[15px] tracking-lighter md:px-24 dark:text-white">
           Transforming the landscape of assessments and interventions in
           speech-language pathology, IzzyAI is driven by a mission to harness
           the power of artificial intelligence. We tailor our avatars to meet

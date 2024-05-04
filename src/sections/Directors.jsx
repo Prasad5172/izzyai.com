@@ -20,7 +20,7 @@ function DirectorsSection() {
         <Button>All Members</Button>
       </div>
 
-      <div className="grid grid-col-2 md:grid-cols-3 gap-6 text-center md:text-left">
+      <div className="grid grid-col-2 md:grid-cols-3 gap-6 text-center md:text-center">
         <div>
           <img
             className="object-cover w-full h-[409px]"

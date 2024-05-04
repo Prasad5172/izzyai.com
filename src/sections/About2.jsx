@@ -4,7 +4,7 @@ function AboutSection2() {
 
   var width = window.innerWidth;
   return (
-    <div className="grid grid-cols-1 md:grid-cols-2 text-center md:text-left w-full gap-24 md:gap-32 my-24 md:my-32 px-8 md:px-32">
+    <div className="grid grid-cols-1 md:grid-cols-2 text-center md:text-center w-full gap-24 md:gap-32 my-24 md:my-32 px-8 md:px-32">
       {/* <div className="">
         <h2 className="text-[40px] dark:text-white capitalize leading-[48px] font-bold">
           Revolutionizing Design with AI
@@ -26,7 +26,7 @@ function AboutSection2() {
           <h2 className="text-[30px] dark:text-white capitalize leading-[48px] font-bold">
             IzzyAI Rationale
           </h2>
-          <p className="my-4 text-center text-[14.3px] tight-letter-spacing tracking-tighter lg:text-justify md:text-[14px] lg:text-[15.5px] mt-6 lg:tracking-tighter text-[#111920] dark:text-white">
+          <p className="my-4 text-center text-[14.3px] tight-letter-spacing tracking-tighter lg:text-center md:text-[14px] lg:text-[15.5px] mt-6 lg:tracking-tighter text-[#111920] dark:text-white">
             IzzyAI is the only human avatar-based model that captures audio-visual
             and emotional features of the user and provides a comprehensive
             assessment. The wide variety of therapy options, especially the
