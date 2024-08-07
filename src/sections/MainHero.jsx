@@ -70,27 +70,6 @@ function MainHeroSection() {
     </div>
   );
 
-  // return (
-  // <a
-  //     className="w-full text-center p-5 bg-hero-image min-h-[100vh] bg-cover bg-center flex flex-col justify-center items-center"
-  //     style={{
-  //         backgroundImage:
-  //             "linear-gradient(0deg, rgba(17, 25, 32, 0.64) 0%, rgba(17, 25, 32, 0.64) 100%), url('/hero_background.png')",
-  //     }}
-  // >
-  //     <h2 className="leading-none text-[46px] md:text-[72px] font-bold text-white max-w-6xl">
-  //         Welcome to IzzyAI <br />{' '}
-  //         <animated.span style={fadeIn}>
-  //             {characters.slice(0, textIndex).map((char, index) => (
-  //                 <span key={index}>{char}</span>
-  //             ))}
-  //         </animated.span>
-  //     </h2>
-  //     <p className="max-w-3xl text-xl text-white mt-2">
-  //         Embark on a journey to clear and condifent speech with IzzyAi. Our avatart-led exercises, powered by AI, target Articulation, Stammering, Voice and Language Disorder. Let's unlock your communication potential together
-  //     </p>
-  // </a>
-  // );
 }
 
 export default MainHeroSection;

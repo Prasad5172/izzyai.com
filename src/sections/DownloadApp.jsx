@@ -1,12 +1,42 @@
+import React,{useRef,useEffect} from 'react'
 import qrImage from "../Assets/qr-image.svg";
 import IMacBadge from "../Assets/iMac-badge.svg";
 import MicrosoftBadge from "../Assets/micro.svg";
 
 function DownloadAppSection() {
+  const sectionRef = useRef(null);
+  const gridRef = useRef(null);
+  
+  useEffect(() => {
+    const handleScroll = () => {
+      const sectionTop = sectionRef.current.offsetTop;
+      const sectionHeight = sectionRef.current.offsetHeight;
+      const scrollTop = window.scrollY || document.documentElement.scrollTop;
+      const viewportHeight = window.innerHeight;
+
+      // Calculate opacity based on scroll position relative to container
+      const opacity = Math.min(1, 0.90 *(scrollTop - sectionTop + viewportHeight) / sectionHeight);
+
+      // Apply opacity to content
+      if (sectionRef.current) {
+        sectionRef.current.style.opacity = opacity;
+      }
+      if (gridRef.current) {
+        gridRef.current.style.opacity = opacity;
+      }
+    };
+
+    window.addEventListener("scroll", handleScroll);
+    handleScroll(); // Initial call to handle pre-scrolled content
+
+    return () => window.removeEventListener("scroll", handleScroll);
+  }, []);
+
   return (
-    <div className="m-4"> 
+    <div className="m-4" ref={sectionRef}> 
       <div
         id="download"
+        
         className="flex w-full lg:w-fit md:w-fit lg:p-10 mt-32 flex-col md:flex-row items-center justify-between md:mx-32 bg-slate-300 dark:bg-[#222A32] p-4 rounded-2xl"
       >
         <div className="order-2 md:order-1 text-center md:text-center p-2">
@@ -24,7 +54,11 @@ function DownloadAppSection() {
             succeed. Available on your favorite app store, IzzyAI is your
             companion in achieving clear and confident speech.
           </p>{" "}
-          <div className="flex flex-wrap space-x-2 space-y-2 lg:space-y-0 justify-center md:justify-start md:space-x-2 mb-5 md:mb-0">
+          <p className="my-4 block bg-clip-text text-transparent font-bold text-[30px] bg-gradient-to-r from-[#0CC8E8] to-[#2DEEAA]">
+              Coming Soon On{" "}
+            </p>
+          <div ref={gridRef}  className="text-center flex flex-wrap space-x-2 space-y-2 lg:space-y-0 justify-center  md:space-x-2 mb-5 md:mb-0">
+          
           <a href="#" className="mt-2 lg:mt-0">
               <svg
                 width="157"

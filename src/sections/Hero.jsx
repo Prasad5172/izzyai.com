@@ -43,13 +43,17 @@ function HeroSection() {
           </span>
           with AI Powered therapists
         </h2>
-        <p className="my-4 text-[14px] text-center lg:text-center text-center tracking-tighter lg:tracking-normal lg:text-[16.5px] text-[#111920] dark:text-white">
+        <p className="my-4 text-[14px] text-center lg:text-center  tracking-tighter lg:tracking-normal lg:text-[16.5px] text-[#111920] dark:text-white">
           Discover the future of speech therapy with IzzyAI. Our cutting-edge AI
           therapists are designed to understand, guide, and enhance your speech
           capabilities, offering a personalized path to clearer communication.
         </p>
         {/* <Button>Learn More</Button> */}
-        <div className="flex space-x-2 flex-nowrap md:space-x-1 md:flex-nowrap lg:flex-nowrap  lg:space-x-2 items-center ">
+        <p className="my-4 block bg-clip-text text-transparent font-bold text-[30px] bg-gradient-to-r from-[#0CC8E8] to-[#2DEEAA]">
+              Coming Soon On{" "}
+            </p>
+        <div className="flex justify-center space-x-2 flex-nowrap md:space-x-1 md:flex-nowrap lg:flex-nowrap  lg:space-x-2 items-center ">
+        
           <a href="#">
             <img src={GoogleBadge} alt="google" />
           </a>
@@ -70,6 +74,7 @@ function HeroSection() {
               alt="Microsoft"
             />
           </a>
+         
         </div>
       </div>
       <div className="flex justify-center lg:flex-none lg:justify-normal  p-4 ">

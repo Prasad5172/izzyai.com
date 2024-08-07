@@ -1,19 +1,22 @@
+import React,{useEffect,useRef} from 'react'
 import phoneMockup from "../Assets/sec.png";
 
 import Svg1 from "../Assets/features-1.svg";
 import Svg2 from "../Assets/features-2.svg";
 import Svg3 from "../Assets/features-3.svg";
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 
 const Tile = (props) => {
   return (
-    <div className="">
-      <div className="flex items-center mb-2 md:justify-start lg:justify-start justify-around">
+    <div className="" data-aos="fade-left" data-aos-delay="400">
+      <div className="flex items-center mb-2 md:justify-start lg:justify-start justify-around" >
         <div className="flex items-center 	">
           <img src={props.icon} alt="icon" />
           <h3 className="ml-2 text-[22px] font-bold w-full">{props.heading}</h3>
         </div>
       </div>
-      <p className="box-2 text-center tracking-lighter  text-[15px] tight-letter-spacing lg:text-start md:text-start sm:text-center md:text-[15px] lg:text-[15px]  lg:tracking-lighter ">
+      <p className="box-2 text-center tracking-lighter  text-[13.7px] tight-letter-spacing lg:text-start md:text-start sm:text-center md:text-[15px] lg:text-[15px]  lg:tracking-lighter ">
         {props.text}
       </p>
     </div>
@@ -21,9 +24,42 @@ const Tile = (props) => {
 };
 
 function FeaturesSection() {
+  const sectionRef = useRef(null);
+  
+  useEffect(() => {
+    const handleScroll = () => {
+      const sectionTop = sectionRef.current.offsetTop;
+      const sectionHeight = sectionRef.current.offsetHeight;
+      const scrollTop = window.scrollY || document.documentElement.scrollTop;
+      const viewportHeight = window.innerHeight;
+
+      // Calculate opacity based on scroll position relative to container
+      const opacity = Math.min(1, 0.25 * (scrollTop - sectionTop + viewportHeight) / sectionHeight);
+      const translation = Math.min(400, 400 - 400 * opacity);
+
+      // Apply opacity and translation to content
+      if (sectionRef.current) {
+        sectionRef.current.style.opacity = opacity;
+      }
+      
+    };
+
+    window.addEventListener("scroll", handleScroll);
+    handleScroll(); // Initial call to handle pre-scrolled content
+
+    return () => window.removeEventListener("scroll", handleScroll);
+  }, []);
+
+
   return (
-    <div id="help">
-      <h2 className="text-[32px] md:text-[40px] font-bold text-[#111920] dark:text-white text-center leading-[46px] mt-28 px-5 md:px-0">
+    <div id="help"
+     >
+     <div className=""
+      // data-aos="fade-up"
+      // data-aos-delay="100"
+      ref={sectionRef}
+     >
+      <h2  className="text-[32px] md:text-[40px] font-bold text-[#111920] dark:text-white text-center leading-[46px] mt-28 mb-4 md:mb-20 px-5 md:px-0">
         How IzzyAI can&nbsp;
         <span className="bg-clip-text text-transparent bg-gradient-to-r from-[#0CC8E8] to-[#2DEEAA]">
           help&nbsp;
@@ -36,14 +72,19 @@ function FeaturesSection() {
         </span>
         ?
       </h2>
-      <div className="relative w-full md:bg-slate-300 md:dark:bg-[#222A32] text-[#111920] dark:text-white mt-16 md:mt-32 block md:flex rounded-2xl max-w-5xl mx-auto py-5 md:py-0">
-        <div className="justify-center align-middle items-center">
+
+     </div>
+      <div className="relative w-full md:bg-slate-300 md:dark:bg-[#222A32] text-[#111920] dark:text-white  block md:flex rounded-2xl max-w-5xl mx-auto py-5 md:py-0">
+        <div className="justify-center align-middle items-center overflow-x-hidden" >
           <img
-            className="block h-[30rem] md:absolute left-14 bottom-32 mx-auto md:mx-0 mt-3 md:mt-0"
+            className="  block h-[30rem] md:absolute left-14 bottom-32 mx-auto md:mx-0 mt-3 md:mt-0  "
             src={phoneMockup}
+            alt="Phone Mockup"
+            data-aos="fade-left"
+            data-aos-delay="200"
           />
         </div>
-        <div className="grid grid-cols-1  md:grid-cols-3 gap-6  md:gap-8 p-6 rounded-2xl md:p-16  bg-slate-300 dark:bg-[#222A32] mt-10 md:mt-0 mx-5 md:mx-0 text-sm">
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-6 md:gap-8 p-6 rounded-2xl md:p-16 bg-slate-300 dark:bg-[#222A32] mt-10 md:mt-0 mx-5 md:mx-0 text-sm overflow-x-hidden">
           <div></div>
           <Tile
             heading="Assessment"
@@ -52,7 +93,7 @@ function FeaturesSection() {
           />
           <Tile
             heading="Exercises"
-            text="Dive into a variety of interactive exercises led by a friendly avatar, designed to enhance your speaking abilities. These exercises are not only personalized but also engaging, making your practice sessions enjoyable. Whether  it’s working on fluency, articulation, voice or language, our avatar guides you every step of the way, offering real-time feedback and encouragement."
+            text="Dive into a variety of interactive exercises led by a friendly avatar, designed to enhance your speaking abilities. These exercises are not only personalized but also engaging, making your practice sessions enjoyable. Whether it’s working on fluency, articulation, voice or language, our avatar guides you every step of the way, offering real-time feedback and encouragement."
             icon={Svg2}
           />
           <div className="invisible"></div>
