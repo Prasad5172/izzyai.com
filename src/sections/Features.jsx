@@ -73,6 +73,7 @@ function FeaturesSection() {
         ?
       </h2>
 
+
      </div>
       <div className="relative w-full md:bg-slate-300 md:dark:bg-[#222A32] text-[#111920] dark:text-white  block md:flex rounded-2xl max-w-5xl mx-auto py-5 md:py-0">
         <div className="justify-center align-middle items-center overflow-x-hidden" >
