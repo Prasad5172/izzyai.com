@@ -52,7 +52,7 @@ function MainHeroSection() {
         <div className="relative z-10 py-20 md:py-32 md:px-10 text-white text-center justify-center items-center">
               <span className=" w-full justify-center mb-0 tracking-tighter  md:text-6xl font-bold leading-snug">
                 <h2 className="text-4xl  md:text-6xl font-bold leading-snug">
-                  Welcome to IzzyAI
+                  Welcome to IzzyAi
                 </h2>
                 <animated.span style={fadeIn}>
                   {characters.slice(0, textIndex).map((char, index) => (
@@ -61,8 +61,8 @@ function MainHeroSection() {
                 </animated.span>
               </span>
               <p className="text-xl mt-2 px-5">
-                Embark on a journey to clear and confident speech with IzzyAI. Our
-                avatar-led exercises, powered by AI, target Articulation, Stammering,
+                Embark on a journey to clear and confident speech with IzzyAi. Our
+                avatar-led exercises, powered by Ai, target Articulation, Stammering,
                 Voice and Language Disorders. Let's unlock your communication
                 potential together.
               </p>
