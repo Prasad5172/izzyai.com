@@ -62,7 +62,7 @@ const TryProductsButton = (props) => {
 
 const links = [
   {
-    text: "How IzzyAi Can Help?",
+    text: "How IzzyAI Can Help?",
     href: "#help",
   },
 

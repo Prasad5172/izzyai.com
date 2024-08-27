@@ -23,7 +23,7 @@ function MissionVisionSection() {
         </h2>
         <p className=" text-center  text-[13.7px] lg:text-[15px] tracking-lighter md:px-24 dark:text-white">
           Transforming the landscape of assessments and interventions in
-          speech-language pathology, IzzyAi is driven by a mission to harness
+          speech-language pathology, IzzyAI is driven by a mission to harness
           the power of artificial intelligence. We tailor our avatars to meet
           the unique needs of each user, ensuring precision and effectiveness in
           every interaction. Through relentless innovation and a focus on

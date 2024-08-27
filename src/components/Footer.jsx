@@ -11,7 +11,7 @@ function Footer() {
         <div className="flex flex-wrap md:text-center text-center -mb-10 -mx-4">
           <div className="lg:w-1/3 md:w-1/2 w-full px-4">
             <a href="#help" className="title-font font-medium text-white tracking-widest text-sm mb-3 flex justify-center items-center">
-              How IzzyAi can help?
+              How IzzyAI can help?
             </a>
           </div>
           <div className="lg:w-1/3 md:w-1/2 w-full px-4">
