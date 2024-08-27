@@ -62,7 +62,7 @@ function FeaturesCardSection() {
           />
           <Card
           align="left"
-            heading="Articulation"
+            heading="Articulation Disorder"
             text="Whether it's bilabial or glottal, voiced or unvoiced, mastering individual sound or difficult syllables, IzzyAi supports you through tailored articulation exercises. Experience a noticeable improvement in how you  express words and phrases."
           />
           <Card
