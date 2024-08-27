@@ -28,10 +28,10 @@ function AboutSection() {
       <img className="w-full rounded" src="./about-2.png" data-aos = "fade-up" data-aos-dealy="100" />
       <div className="" ref={contentRef} style={{ transition: 'opacity 0.5s ease-out', opacity: 0 }}>
         <h2 className="text-[30px] dark:text-white capitalize leading-[48px] font-bold">
-         IzzyAI brings products to help humanity
+         IzzyAi brings products to help humanity
         </h2>
         <p className="my-4 text-center text-[14.3px] tight-letter-spacing  tracking-tighter lg:text-center md:text-[14px] lg:text-[15.5px] mt-6 lg:tracking-tighter text-[#111920] dark:text-white">
-          Empowering Change Through Innovation: At the heart of IzzyAI, we're driven by a mission to create
+          Empowering Change Through Innovation: At the heart of IzzyAi, we're driven by a mission to create
           technology that makes a real difference. Our products are designed with humanity in mind,
           aiming to bridge gaps, overcome barriers, and offer solutions that enhance lives.
           Join us in our journey to bring positive change, one voice at a time.

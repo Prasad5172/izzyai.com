@@ -44,14 +44,14 @@ function DownloadAppSection() {
             <span className="bg-clip-text text-transparent bg-gradient-to-r from-[#0CC8E8] to-[#2DEEAA]">
               Download{" "}
             </span>
-            IzzyAI Application Now!
+            IzzyAi Application Now!
           </h2>
           <p className="dark:text-white text-center tracking-lighter  mb-5 text-[13px] lg:text-[15px] md:mr-8 lg:mr-8">
-            Ready to transform your communication skills? Download the IzzyAI
+            Ready to transform your communication skills? Download the IzzyAi
             app now and embark on a personalized path to improved speech. With
             access to AI-powered assessments, interactive exercises, and
             supportive community features, you have everything you need to
-            succeed. Available on your favorite app store, IzzyAI is your
+            succeed. Available on your favorite app store, IzzyAi is your
             companion in achieving clear and confident speech.
           </p>{" "}
           <p className="my-4 block bg-clip-text text-transparent font-bold text-[30px] bg-gradient-to-r from-[#0CC8E8] to-[#2DEEAA]">

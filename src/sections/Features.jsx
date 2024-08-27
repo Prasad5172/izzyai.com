@@ -60,7 +60,7 @@ function FeaturesSection() {
       ref={sectionRef}
      >
       <h2  className="text-[32px] md:text-[40px] font-bold text-[#111920] dark:text-white text-center leading-[46px] mt-28 mb-4 md:mb-20 px-5 md:px-0">
-        How IzzyAI can&nbsp;
+        How IzzyAi can&nbsp;
         <span className="bg-clip-text text-transparent bg-gradient-to-r from-[#0CC8E8] to-[#2DEEAA]">
           help&nbsp;
         </span>
@@ -89,7 +89,7 @@ function FeaturesSection() {
           <div></div>
           <Tile
             heading="Assessment"
-            text="Begin your journey with IzzyAI’s comprehensive assessment, powered by advanced AI models. These initial evaluations accurately identify your speech patterns, pinpointing areas for improvement. This tailored approach ensures that you receive the most effective therapy right from the start."
+            text="Begin your journey with IzzyAi’s comprehensive assessment, powered by advanced AI models. These initial evaluations accurately identify your speech patterns, pinpointing areas for improvement. This tailored approach ensures that you receive the most effective therapy right from the start."
             icon={Svg3}
           />
           <Tile
@@ -100,12 +100,12 @@ function FeaturesSection() {
           <div className="invisible"></div>
           <Tile
             heading="Reports"
-            text="With IzzyAI, tracking your progress is seamless. After each session, receive comprehensive reports detailing your improvements, areas that need more attention, and insights into your overall speech development. These reports cover everything from session frequency to specific speech errors, offering a clear view of your journey towards clearer communication."
+            text="With IzzyAi, tracking your progress is seamless. After each session, receive comprehensive reports detailing your improvements, areas that need more attention, and insights into your overall speech development. These reports cover everything from session frequency to specific speech errors, offering a clear view of your journey towards clearer communication."
             icon={Svg1}
           />
           <Tile
             heading="Support"
-            text="IzzyAI goes beyond exercises and assessments by providing continuous support and access to a thriving community. Engage with peers facing similar challenges in a supportive environment, share experiences, and celebrate milestones together. Our dedicated team offers guidance, answers questions, and ensures you have all the resources needed for a successful journey. Feel empowered and motivated by a community that understands and supports your path to clearer speech."
+            text="IzzyAi goes beyond exercises and assessments by providing continuous support and access to a thriving community. Engage with peers facing similar challenges in a supportive environment, share experiences, and celebrate milestones together. Our dedicated team offers guidance, answers questions, and ensures you have all the resources needed for a successful journey. Feel empowered and motivated by a community that understands and supports your path to clearer speech."
             icon={Svg1}
           />
         </div>

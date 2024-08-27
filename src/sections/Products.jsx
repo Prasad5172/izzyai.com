@@ -10,12 +10,12 @@ function ProductsSection() {
         <div>
           <img src="/products-1.png" />
           <div className="flex justify-between items-center my-3">
-            <h3 className="font-bold text-[28px] md:text-[32px]">IzzyAI App</h3>
+            <h3 className="font-bold text-[28px] md:text-[32px]">IzzyAi App</h3>
             <a
               href="#"
               className="px-4 py-2 dark:bg-clip-text dark:text-transparent dark:bg-gradient-to-r dark:from-[#0CC8E8] dark:to-[#2DEEAA] border border-black dark:border-[#283642] hover:border-transparent dark:hover:border-transparent cursor-pointer flex items-center uppercase font-bold"
             >
-              Try IzzyAI <Arrow />
+              Try IzzyAi <Arrow />
             </a>
           </div>
           <p>
