@@ -15,7 +15,7 @@ function Footer() {
             </a>
           </div>
           <div className="lg:w-1/3 md:w-1/2 w-full px-4">
-            <a href="https://vtm.ai/" className="title-font font-medium text-white tracking-widest text-sm mb-3 flex justify-center items-center">
+            <a href="https://vtm.ai/" className="title-font font-medium text-white tracking-widest text-sm mb-3 flex justify-center items-center hover:underline">
               Company
             </a>
           </div>
