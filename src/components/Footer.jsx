@@ -1,10 +1,10 @@
-import DarkLogo from "../Assets/logo-footer.svg";
+import Logo from "../Assets/Logo/Logo White.svg";
 
 function Footer() {
   return (
     <footer className="text-gray-400 bg-black body-font mt-10 md:mt-32 flex flex-col items-center">
       <div className="pt-10">
-        <img src={DarkLogo} />
+        <img  src={Logo} alt="logo"/>
       </div>
 
       <div className="container px-10  md:px-32 py-16 mx-auto">
