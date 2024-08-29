@@ -3,6 +3,7 @@ import qrImage from "../Assets/qr-image.svg";
 import IMacBadge from "../Assets/iMac-badge.svg";
 import MicrosoftBadge from "../Assets/micro.svg";
 
+
 function DownloadAppSection() {
   const sectionRef = useRef(null);
   const gridRef = useRef(null);
